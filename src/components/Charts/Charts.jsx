@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { fetchDailyData } from '../../api';
 import { Line, Bar } from 'react-chartjs-2'
 import styles from './Charts.module.css';
-import { colors } from '@material-ui/core';
+
+
 
 function Charts({ data: { confirmed, recovered, deaths }, country }) {
 
